@@ -1,3 +1,8 @@
 from artifaq.artifaq import Artifaq
 
-app = Artifaq()
+app = Artifaq(
+    apps=[
+        'example',
+        'example2',
+    ]
+)
