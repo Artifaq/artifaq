@@ -7,7 +7,9 @@ license = "Apache"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3"
+python = "^3.8"
+fastapi = "^0.112.2"
+uvicorn = "^0.30.6"
 
 
 [build-system]

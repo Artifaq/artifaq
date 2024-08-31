@@ -1,8 +1,8 @@
 from artifaq.artifaq import Artifaq
 
-app = Artifaq(
-    apps=[
-        'example',
-        'example2',
-    ]
-)
+
+app = Artifaq()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
