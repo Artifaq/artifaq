@@ -1,6 +1,4 @@
-from artifaq.config.register_config import register_config
-
-register_config('database' ,{
+config = {
     'driver': 'postgresql',
 
     'host': 'localhost',
@@ -11,4 +9,4 @@ register_config('database' ,{
     'database': 'artifaq',
 
     'collection': 'artifaq',
-})
+}

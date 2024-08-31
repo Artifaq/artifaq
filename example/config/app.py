@@ -1,6 +1,4 @@
-from artifaq.config.register_config import register_config
-
-register_config('app' ,{
+config = {
     'apps': [
 
     ],
@@ -12,4 +10,4 @@ register_config('app' ,{
     'logs.level': 'DEBUG',
     'logs.format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     'logs.file': 'app.log',
-})
+}

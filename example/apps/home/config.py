@@ -1,4 +1,4 @@
-from artifaq.apps.config import AppConfig
+from artifaq.apps.app_config import AppConfig
 
 
 class Config(AppConfig):

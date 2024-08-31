@@ -1,5 +1,5 @@
 from artifaq.apps.config_router import config_router
-from artifaq.apps.router import ArtifaqRouter
+from artifaq.apps.artifaq_router import ArtifaqRouter
 
 
 @config_router({
