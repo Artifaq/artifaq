@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/apps/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/app_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/apps/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/artifaq_router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/config/register_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/apps/home/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/apps/home/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/cors.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/cors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/ER28/PycharmProjects/artifaq/example",
+    "last_opened_file_path": "C:/Users/ER28/PycharmProjects/artifaq",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +84,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ER28\PycharmProjects\artifaq" />
       <recent name="C:\Users\ER28\PycharmProjects\artifaq\example" />
       <recent name="$PROJECT_DIR$/example/config" />
     </key>
@@ -150,7 +144,7 @@
       <workItem from="1724998779739" duration="757000" />
       <workItem from="1725046883783" duration="109000" />
       <workItem from="1725047007386" duration="590000" />
-      <workItem from="1725090079863" duration="2308000" />
+      <workItem from="1725090079863" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -200,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725091427529</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725092541962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725092541962</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
