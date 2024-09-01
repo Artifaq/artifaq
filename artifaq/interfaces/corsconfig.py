@@ -6,3 +6,5 @@ class CORSConfig(BaseModel):
     allow_credentials: bool = False
     allow_methods: list[str] = ["*"]
     allow_headers: list[str] = ["*"]
+    expose_headers: list[str] = []
+    max_age: int = 600
