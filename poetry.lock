@@ -118,6 +118,20 @@ files = [
 ]
 
 [[package]]
+name = "pretty-errors"
+version = "1.2.25"
+description = "Prettifies Python exception output to make it legible."
+optional = false
+python-versions = "*"
+files = [
+    {file = "pretty_errors-1.2.25-py3-none-any.whl", hash = "sha256:8ce68ccd99e0f2a099265c8c1f1c23b7c60a15d69bb08816cb336e237d5dc983"},
+    {file = "pretty_errors-1.2.25.tar.gz", hash = "sha256:a16ba5c752c87c263bf92f8b4b58624e3b1e29271a9391f564f12b86e93c6755"},
+]
+
+[package.dependencies]
+colorama = "*"
+
+[[package]]
 name = "pydantic"
 version = "2.8.2"
 description = "Data validation using Python type hints"
@@ -302,4 +316,4 @@ standard = ["colorama (>=0.4)", "httptools (>=0.5.0)", "python-dotenv (>=0.13)",
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.8"
-content-hash = "a274f8f5975089d287de5717f603fc943256f1c5b62adfb7964c66be98eed087"
+content-hash = "583d77d476ba82493d1b578e4e8cbccbc0e75a8b683b8f145a09aadb5785847d"

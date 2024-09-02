@@ -4,7 +4,6 @@ config = {
     ],
     'mode': 'development',
     'debug': True,
-    'port': 5000,
     'logs.dir': 'logs',
     'logs.enabled': True,
     'logs.level': 'DEBUG',
