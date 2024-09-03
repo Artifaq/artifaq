@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="remove useless config">
+    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/artifaq/utils/load_app_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/utils/load_app_interface.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/apps/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/apps/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/apps/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +136,7 @@
       <workItem from="1724929127034" duration="1978000" />
       <workItem from="1724998779739" duration="757000" />
       <workItem from="1725345017497" duration="1130000" />
-      <workItem from="1725360007680" duration="2628000" />
+      <workItem from="1725360007680" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -229,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725362215911</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725362732952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362732952</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,14 +253,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="wip" />
     <MESSAGE value="add app interface" />
     <MESSAGE value="create logger.py" />
     <MESSAGE value="add app and config" />
     <MESSAGE value="remove useless config" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove useless config" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725362581568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725362980784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>

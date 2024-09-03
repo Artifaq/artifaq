@@ -1,11 +1,9 @@
 import os
 from fastapi import FastAPI
-from pydantic import ValidationError
 from artifaq.apps.app import Application
 from artifaq.config_manager import ConfigManager
 import pretty_errors
-from typing import Dict, Type
-from importlib import import_module
+from typing import Dict
 from pydantic import BaseModel
 
 from artifaq.errors.ArtifaqError import ConfigurationError, InterfaceError, ApplicationLoadError
@@ -73,32 +71,19 @@ class Artifaq(FastAPI):
             app_dir = os.path.join(apps_dir, app_name)
             if os.path.isdir(app_dir):
                 try:
-                    app_interface = self.load_app_interface(app_name)
-                    app_config = self.load_app_config(app_name, app_interface)
+                    from artifaq.utils.load_app_config import load_app_config
+                    from artifaq.utils.load_app_interface import load_app_interface
+
+                    app_interface = load_app_interface(app_name)
+                    app_config = load_app_config(app_name, app_interface)
                     app_instance = Application(app_name, app_config)
                     self.applications[app_name] = app_instance
                 except (ConfigurationError, InterfaceError) as e:
                     raise ApplicationLoadError(f"Failed to load application '{app_name}': {str(e)}")
 
-    def load_app_config(self, app_name: str, interface_class: Type[BaseModel]) -> BaseModel:
-        try:
-            config_module = import_module(f"config.apps.{app_name}")
-            raw_config = getattr(config_module, "config")
-            validated_config = interface_class(**raw_config)
-            return validated_config
-        except ImportError:
-            raise ConfigurationError(f"No configuration found for application '{app_name}'")
-        except ValidationError as e:
-            raise ConfigurationError(f"Validation error for configuration of '{app_name}': {e}")
-
-    def load_app_interface(self, app_name: str) -> Type[BaseModel]:
-        try:
-            interface_module = import_module(f"apps.{app_name}.config")
-            return getattr(interface_module, f"{app_name.capitalize()}Config")
-        except ImportError:
-            raise InterfaceError(f"No interface found for application '{app_name}'")
-        except AttributeError:
-            raise InterfaceError(f"Invalid interface definition for application '{app_name}'")
+    def register_application(self, app_name: str, app_config: BaseModel):
+        app_instance = Application(app_name, app_config)
+        self.applications[app_name] = app_instance
 
     def get_application(self, app_name: str) -> Application:
         return self.applications.get(app_name)
