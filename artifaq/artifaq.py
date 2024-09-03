@@ -38,11 +38,11 @@ class Artifaq(FastAPI):
         self.__initialized = True
         self.config_manager = ConfigManager()
         self.applications: Dict[str, Application] = {}
-        self.init_config()
-        self.init_cors()
-        self.load_applications()
+        self._init_config()
+        self._init_cors()
+        self._load_applications()
 
-    def init_config(self):
+    def _init_config(self):
         from artifaq.interfaces.corsconfig import CORSConfig
         from artifaq.interfaces.appconfig import APPConfig
 
@@ -51,7 +51,7 @@ class Artifaq(FastAPI):
 
         self.config_manager.load_configs()
 
-    def init_cors(self):
+    def _init_cors(self):
         from fastapi.middleware.cors import CORSMiddleware
 
         self.add_middleware(
@@ -65,7 +65,7 @@ class Artifaq(FastAPI):
         )
 
 
-    def load_applications(self):
+    def _load_applications(self):
         apps_dir = "apps"
         for app_name in os.listdir(apps_dir):
             app_dir = os.path.join(apps_dir, app_name)
@@ -76,13 +76,16 @@ class Artifaq(FastAPI):
 
                     app_interface = load_app_interface(app_name)
                     app_config = load_app_config(app_name, app_interface)
-                    app_instance = Application(app_name, app_config)
-                    self.applications[app_name] = app_instance
+                    self.register_application(app_name, app_config)
                 except (ConfigurationError, InterfaceError) as e:
                     raise ApplicationLoadError(f"Failed to load application '{app_name}': {str(e)}")
 
     def register_application(self, app_name: str, app_config: BaseModel):
         app_instance = Application(app_name, app_config)
+
+        for router in app_instance.get_routers():
+            self.include_router(router.get_router())
+
         self.applications[app_name] = app_instance
 
     def get_application(self, app_name: str) -> Application:
