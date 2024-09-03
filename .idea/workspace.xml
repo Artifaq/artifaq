@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
+    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="add app interface">
+      <change afterPath="$PROJECT_DIR$/artifaq/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,7 @@
       <workItem from="1724928596802" duration="524000" />
       <workItem from="1724929127034" duration="1978000" />
       <workItem from="1724998779739" duration="757000" />
-      <workItem from="1725345017497" duration="291000" />
+      <workItem from="1725345017497" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -191,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725258397996</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add app interface">
+      <option name="closed" value="true" />
+      <created>1725345322914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725345322914</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,9 +220,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="add app interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app interface" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725257778490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725346080175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>
