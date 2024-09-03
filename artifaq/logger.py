@@ -8,7 +8,6 @@ class Logger(logging.Logger):
     def __init__(self):
         super().__init__("artifaq")
 
-        print(Artifaq().config_manager.config['app'])
         self.config = Artifaq().config_manager.config["app"]
 
         if self.config['logs_enabled']:

@@ -1,1 +1,1 @@
-uvicorn main:app --host localhost --port 8000 --reload
+poetry run uvicorn main:app --host localhost --port 8000 --reload

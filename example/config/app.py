@@ -1,5 +1,4 @@
 config = {
-    'externals_apps': [],
     'mode': 'development',
     'debug': True,
     'logs_dir': 'logs',
