@@ -1,22 +1,12 @@
-from artifaq.apps.router import BaseRouter, depends, router, router_config
+from artifaq.apps.router import router_config, BaseRouter, router
 
+@router_config(prefix="/example", tags=["example"])
+class ExampleRouter(BaseRouter):
 
-@router_config(
-    prefix="/",
-    tags=["home"],
-)
-class HomeRouter(BaseRouter):
+    @router.get("/common-route")
+    def common_route(self):
+        return {"message": "This uses the common dependency"}
 
-    @depends
-    def injected_depends(self):
-        return {
-            "home_config": "HomeConfig",
-        }
-
-    @router.get("/")
-    async def home(self):
-        return "blabla"
-
-    @router.get("/about")
-    async def about(self):
-        return "test"
+    @router.get("/specific-route")
+    def specific_route(self):
+        return {"message": "This uses a specific dependency"}

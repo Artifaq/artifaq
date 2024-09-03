@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="split function into file">
-      <change afterPath="$PROJECT_DIR$/artifaq/apps/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/home/router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/apps/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/apps/home/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/router.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +136,8 @@
       <workItem from="1724998779739" duration="757000" />
       <workItem from="1725345017497" duration="1130000" />
       <workItem from="1725360007680" duration="3083000" />
-      <workItem from="1725363098230" duration="7457000" />
+      <workItem from="1725363098230" duration="7645000" />
+      <workItem from="1725378989260" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -272,6 +271,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="split function into file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725371364211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725371483599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>
