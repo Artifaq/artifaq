@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="add app interface">
-      <change afterPath="$PROJECT_DIR$/artifaq/logger.py" afterDir="false" />
+    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="create logger.py">
+      <change afterPath="$PROJECT_DIR$/artifaq/apps/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/apps/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/errors/ArtifaqError.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/home/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/config/apps/home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/externals/auth/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/logger.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.py" afterDir="false" />
     </list>
@@ -86,6 +94,7 @@
       <recent name="$PROJECT_DIR$/example/config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifaq/apps" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/artifaq/bootstrappe" />
     </key>
@@ -134,7 +143,8 @@
       <workItem from="1724928596802" duration="524000" />
       <workItem from="1724929127034" duration="1978000" />
       <workItem from="1724998779739" duration="757000" />
-      <workItem from="1725345017497" duration="1078000" />
+      <workItem from="1725345017497" duration="1130000" />
+      <workItem from="1725360007680" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -200,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725345322914</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create logger.py">
+      <option name="closed" value="true" />
+      <created>1725346140421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725346140421</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,9 +239,10 @@
     <MESSAGE value="init" />
     <MESSAGE value="wip" />
     <MESSAGE value="add app interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="add app interface" />
+    <MESSAGE value="create logger.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="create logger.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725346080175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725362131585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>

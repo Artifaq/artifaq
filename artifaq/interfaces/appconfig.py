@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 class APPConfig(BaseModel):
-    apps: list = []
+    externals_apps: list = []
     mode: str = 'development'
     debug: bool = True
     logs_dir: str = 'logs'
