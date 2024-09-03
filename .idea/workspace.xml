@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/artifaq/utils/load_app_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artifaq/utils/load_app_interface.py" afterDir="false" />
+    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="split function into file">
+      <change afterPath="$PROJECT_DIR$/.idea/artifaq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +140,8 @@
       <workItem from="1724929127034" duration="1978000" />
       <workItem from="1724998779739" duration="757000" />
       <workItem from="1725345017497" duration="1130000" />
-      <workItem from="1725360007680" duration="3001000" />
+      <workItem from="1725360007680" duration="3083000" />
+      <workItem from="1725363098230" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -234,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725362732952</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="split function into file">
+      <option name="closed" value="true" />
+      <created>1725363036354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725363036354</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,9 +271,10 @@
     <MESSAGE value="add app and config" />
     <MESSAGE value="remove useless config" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="split function into file" />
+    <option name="LAST_COMMIT_MESSAGE" value="split function into file" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725362980784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725363011553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
   </component>
 </project>
