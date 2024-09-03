@@ -38,8 +38,10 @@ class Artifaq(FastAPI):
 
     def init_config(self):
         from artifaq.interfaces.corsconfig import CORSConfig
+        from artifaq.interfaces.appconfig import APPConfig
 
         self.config_manager.register_interface("cors", CORSConfig)
+        self.config_manager.register_interface("app", APPConfig)
 
         self.config_manager.load_configs()
 
