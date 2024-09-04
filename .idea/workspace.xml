@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="wip">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/apps/router.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/corsconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/corsconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/utils/load_app_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/utils/load_app_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/utils/load_app_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/utils/load_app_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/apps/home/router.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/router.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="mvp" />
+                    <option name="lastUsedInstant" value="1725257415" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1724929089" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2lKV8ZAFqzNXrnJbAOcgDUcytaX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mvp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lguerra/PycharmProjects/artifaq/example/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifaq/apps" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/artifaq/bootstrappe" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="artifaq" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f709bc8-9dd5-40de-88d2-ca9e7de5da97" name="Changes" comment="" />
+      <created>1724928595760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724928595760</updated>
+      <workItem from="1724928596802" duration="524000" />
+      <workItem from="1724929127034" duration="1978000" />
+      <workItem from="1724998779739" duration="757000" />
+      <workItem from="1725345017497" duration="1130000" />
+      <workItem from="1725360007680" duration="3083000" />
+      <workItem from="1725363098230" duration="7645000" />
+      <workItem from="1725378989260" duration="765000" />
+      <workItem from="1725430292458" duration="1015000" />
+      <workItem from="1725431313521" duration="949000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1724928970337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724928970337</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1724929059618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724929059618</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1724929276551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724929276551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <option name="closed" value="true" />
+      <created>1724929318066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724929318066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="wip">
+      <option name="closed" value="true" />
+      <created>1724930876600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724930876600</updated>
+    </task>
+    <task id="LOCAL-00006" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725258390016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725258390016</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725258397996</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725258397996</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add app interface">
+      <option name="closed" value="true" />
+      <created>1725345322914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725345322914</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create logger.py">
+      <option name="closed" value="true" />
+      <created>1725346140421</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725346140421</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add app and config">
+      <option name="closed" value="true" />
+      <created>1725362173922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362173922</updated>
+    </task>
+    <task id="LOCAL-00011" summary="remove useless config">
+      <option name="closed" value="true" />
+      <created>1725362215911</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362215911</updated>
+    </task>
+    <task id="LOCAL-00012" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725362732952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725362732952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="split function into file">
+      <option name="closed" value="true" />
+      <created>1725363036354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725363036354</updated>
+    </task>
+    <task id="LOCAL-00014" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725379751089</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725379751089</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="add app interface" />
+    <MESSAGE value="create logger.py" />
+    <MESSAGE value="add app and config" />
+    <MESSAGE value="remove useless config" />
+    <MESSAGE value="split function into file" />
+    <MESSAGE value="wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/artifaq$main.coverage" NAME="main Coverage Results" MODIFIED="1725431852238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/example" />
+  </component>
+</project>
