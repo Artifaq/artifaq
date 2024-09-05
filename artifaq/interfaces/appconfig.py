@@ -14,6 +14,7 @@ class APPConfig(BaseModel):
         logs_file (str): The name of the log file.
     """
 
+    apps: list[str] = []
     mode: str = 'development'
     debug: bool = True
     logs_dir: str = 'logs'

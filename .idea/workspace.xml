@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fc2a42d-9c55-4f55-bd7c-0f8b5dc80674" name="Changes" comment="wip" />
+    <list default="true" id="2fc2a42d-9c55-4f55-bd7c-0f8b5dc80674" name="Changes" comment="wip">
+      <change afterPath="$PROJECT_DIR$/example/apps/home/providers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/home/services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/test/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/test/providers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/test/router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/test/services/service_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/apps/test/services/service_two.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/config/apps/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifaq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifaq.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/apps/home/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/apps/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/apps/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config/cors.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +36,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2ldk67Ru8RocufwJo3hkgYHpRzH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/lguerra/PycharmProjects/artifaq/example/config/apps",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/config/apps" />
+      <recent name="$PROJECT_DIR$/example/apps" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="artifaq" />
@@ -62,8 +97,28 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.428" />
+        <option value="bundled-python-sdk-80e8e15d2b92-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.428" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fc2a42d-9c55-4f55-bd7c-0f8b5dc80674" name="Changes" comment="wip" />
+      <created>1725517163239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725517163239</updated>
+      <workItem from="1725517164312" duration="1029000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wip" />
