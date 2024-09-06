@@ -1,6 +1,6 @@
-from artifaq.artifaq import Artifaq
+from artifaq.main import artifaq
 
-app = Artifaq()
+app = artifaq()
 
 @app.get("/")
 async def root():

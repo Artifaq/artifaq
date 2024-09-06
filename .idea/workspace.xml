@@ -5,12 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc2a42d-9c55-4f55-bd7c-0f8b5dc80674" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/artifaq/configs/app_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artifaq/configs/cors_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifaq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifaq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/config/app_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/config/project_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/core/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/core/dependancy_injection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/core/routing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/database/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/repository/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/repository/base_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/service/base_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/templates/README.md.jinja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/templates/main.py.jinja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/templates/pyproject.toml.jinja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/apps/router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/configs/app_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/configs/config_manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/configs/cors_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/errors/ArtifaqError.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/corsconfig.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/logger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/utils/load_app_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/utils/load_app_interface.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,24 +69,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lguerra/Documents/eddy-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/lguerra/PycharmProjects/artifaq/artifaq/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/artifaq/templates" />
+      <recent name="$PROJECT_DIR$/artifaq/service" />
+      <recent name="$PROJECT_DIR$/artifaq/repository" />
+      <recent name="$PROJECT_DIR$/artifaq/database" />
       <recent name="$PROJECT_DIR$/example/config/apps" />
-      <recent name="$PROJECT_DIR$/example/apps" />
     </key>
   </component>
   <component name="RunManager">
@@ -109,7 +142,8 @@
       <workItem from="1725534930906" duration="10000" />
       <workItem from="1725534947362" duration="33000" />
       <workItem from="1725541919436" duration="34000" />
-      <workItem from="1725603157419" duration="1088000" />
+      <workItem from="1725603157419" duration="1321000" />
+      <workItem from="1725624266986" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="wip">
       <option name="closed" value="true" />
@@ -119,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725518575734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725604474340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725604474340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
