@@ -16,6 +16,8 @@ bandit = "^1.7.9"
 pylint = "^3.2.7"
 mypy = "^1.11.2"
 pre-commit = "^3.8.0"
+dependency-injector = "4.42.0b1"
+pydantic-settings = "^2.4.0"
 
 
 [build-system]

@@ -1,6 +1,6 @@
-from artifaq.interfaces.appconfig import APPConfig
+from artifaq.configs.app_config import AppConfig
 
-config = APPConfig(
+config = AppConfig(
     apps=[
         'test',
         'home',

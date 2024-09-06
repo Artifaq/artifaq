@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fc2a42d-9c55-4f55-bd7c-0f8b5dc80674" name="Changes" comment="wip">
-      <change afterPath="$PROJECT_DIR$/example/apps/home/providers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/home/services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/test/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/test/providers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/test/router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/test/services/service_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/apps/test/services/service_two.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/config/apps/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/configs/app_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artifaq/configs/cors_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifaq.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifaq.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/interfaces/appconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/apps/home/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/apps/home/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/apps/home.py" beforeDir="false" afterPath="$PROJECT_DIR$/example/config/apps/home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/config/cors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/artifaq/artifaq.py" beforeDir="false" afterPath="$PROJECT_DIR$/artifaq/artifaq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ldk67Ru8RocufwJo3hkgYHpRzH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/lguerra/PycharmProjects/artifaq/example/config/apps",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/lguerra/Documents/eddy-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/example/config/apps" />
@@ -113,8 +105,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725517163239</updated>
-      <workItem from="1725517164312" duration="1029000" />
+      <workItem from="1725517164312" duration="1416000" />
+      <workItem from="1725534930906" duration="10000" />
+      <workItem from="1725534947362" duration="33000" />
+      <workItem from="1725541919436" duration="34000" />
+      <workItem from="1725603157419" duration="1088000" />
     </task>
+    <task id="LOCAL-00001" summary="wip">
+      <option name="closed" value="true" />
+      <created>1725518575734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725518575734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
